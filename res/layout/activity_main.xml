@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.group51androidprojectchess.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/RecordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/StartButton"
+        android:layout_alignRight="@+id/StartButton"
+        android:layout_below="@+id/StartButton"
+        android:layout_marginTop="15dp"
+        android:text="@string/RecordGame" />
+
+    <Button
+        android:id="@+id/PlaybackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RecordButton"
+        android:layout_alignRight="@+id/RecordButton"
+        android:layout_below="@+id/RecordButton"
+        android:layout_marginTop="21dp"
+        android:text="@string/PlayBack" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="59dp"
+        android:gravity="center_horizontal"
+        android:text="@string/TitleString"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="@string/StartGame" />
+    
+</RelativeLayout>

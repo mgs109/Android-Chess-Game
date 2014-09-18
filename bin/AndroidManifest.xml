@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.group51androidprojectchess"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.group51androidprojectchess.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.group51androidprojectchess.ChessGameActivity"
+            android:label="@string/title_activity_chess_game" >
+        </activity>
+        <activity
+            android:name="com.example.group51androidprojectchess.ListGamesActivity"
+            android:label="@string/title_activity_list_games" >
+        </activity>
+        <activity
+            android:name="com.example.group51androidprojectchess.GameListActivity"
+            android:label="@string/title_activity_game_list"
+            android:parentActivityName="android.app.ListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.app.ListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.group51androidprojectchess.SaveGameActivity"
+            android:label="@string/title_activity_save_game" >
+        </activity>
+        <activity
+            android:name="com.example.group51androidprojectchess.ReplayActivity"
+            android:label="@string/title_activity_replay" >
+        </activity>
+    </application>
+
+</manifest>

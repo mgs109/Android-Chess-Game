@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Group51AndroidProjectChess</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="StartGame">Start Game</string>
+    <string name="RecordGame">Recorded Games</string>
+    <string name="PlayBack">Playback Game</string>
+    <string name="TitleString">Group 51 Android Project: Chess</string>
+    <string name="title_activity_chess_game">ChessGameActivity</string>
+    <string name="tempText">Work in progress.</string>
+    <string name="endButton">End Game</string>
+    <string name="blankText">Game start!</string>
+    <string name="title_activity_list_games">ListGamesActivity</string>
+    <string name="title_activity_game_list">GameListActivity</string>
+    <string name="title_activity_save_game">SaveGameActivity</string>
+    <string name="saveText">To save a record the game, please input a title in the text field below, then tap save.</string>
+    <string name="title_activity_replay">ReplayActivity</string>
+
+</resources>
